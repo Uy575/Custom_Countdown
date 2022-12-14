@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Custom Countdown</title>
+</head>
+<body>
+    <div class="mainContainer" id="mainContainer">
+       <div class="inputForm" id="inputForm">
+        <div class="headin" id="heading">
+            <h1>Custom Countdown</h1>
+        </div>
+           <form  id="form">
+               <label for="title">Title</label>
+               <input type="text" id="title" placeholder="Enter Title">
+               <label for="datePicker"></label>
+               <input type="date" id="datePicker" >
+               <button type="submit" id>Proceed</button>
+            </form>
+        </div>
+    
+    <div class="inputForm" id="Countdown" hidden>
+  
+        <div class="countdownTitle" id="countdownTitle">
+            hello world
+        </div>
+
+        <div class="countdownTimer" id="countdownTimer">
+            <ul>
+                <ll><span></span> day </ll>
+                <ll><span></span> hours </ll>
+                <ll><span></span> minutes </ll>
+                <ll><span></span> seconds </ll>
+            </ul>
+        </div>
+        <button id="reset">Reset</button>
+        
+    </div>
+
+    <div class="countdownCompletion" id="countdownCompletion" hidden>
+        <div class="countdownTitle" id="countdownCompTitle">
+            hello world
+        </div>
+       <p>Countdown Completed huh!!!.</p>
+       <button id="setAgain">Set Again</button>
+    </div>
+
+    </div>
+</body>
+</html>
